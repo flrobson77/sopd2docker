@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+   nginx:
+      image: nginx
+      volumes:
+         - /home/sysadmin/projeto02:/usr/share/nginx/html
+      ports:
+         - 8000:80
